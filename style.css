@@ -1,0 +1,71 @@
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100%;
+  }
+}
+
+body {
+background-color: #001253;
+font-family: sans-serif;
+color: #ff0000;
+font-size: 20px;
+line-height: normal;
+}
+
+.card {
+background: lightblue;
+border: 1px solid red;
+border-radius: 20px;
+box-shadow: 5px 5px 5px lightcoral;
+padding: 20px;
+text-align: center;
+margin: 20px;
+}
+h1 {
+color:#000000;
+font-family: 'Oswald', sans-serif;
+font-size: 30px;
+line-height: normal;
+}
+h2, h3{
+color:rgb(16, 1, 1);
+font-family: 'Oswald', sans-serif;
+font-size: 25px;
+line-height: normal;
+}
+
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.button1 {
+background-color: #6B72E1;
+color: white;
+border-radius: 4px;
+
+padding: 5px;
+text-align: center;
+text-decoration: none;
+}
+
+.button1:hover {
+background-color: red;
+transition: .7s;
+}
